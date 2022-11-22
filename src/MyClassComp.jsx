@@ -46,11 +46,8 @@ class MyClassComp extends React.Component {
     return (
       <div>
         <div>Hello,{name}</div>
-        {/* <div>Hello, {this.state.name}</div> */}
         <h1>{propName}</h1>
-        {/* <h1>{this.props.propName}</h1> */}
         <h5>{stateName} using stateName from Props</h5>
-        {/* <h5>{this.state.stateName} using stateName from Props</h5> */}
         <h1>{anotherProp}</h1>
         <div>Count, {count}</div>
 

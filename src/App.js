@@ -4,6 +4,8 @@ import MyClassComp from './MyClassComp';
 import ExBuildingCompLayout from './ExBuildingCompLayout';
 import ExMappingFunction from './ExMappingFunction';
 import ExCompProperties from './ExCompProperties';
+import ClassLifeCycle from './ClassLifeCycle';
+
 
 function App() {
 
@@ -17,23 +19,20 @@ function App() {
     }
   };
 
+  const lifeCycleData = {
+    propName: 'this propname',
+    anotherProp: 'anotherprop prop prop',
+  }
 
 
 
   return (
     <div className="App">
       <header className="App-header">
-        {/* <MyClassComp propName="thisProp is propName" anotherProp="this is anotherProp sukkaFish"/> */}
-        
-        {/* <ExBuildingCompLayout /> */}
-        {/* <ExMappingFunction /> */}
-        {/* <ExCompProperties 
-        title="Harry Mack"
-        image="https://i.pinimg.com/originals/57/7e/41/577e41cc9210ed46a578fce923a5f51c.jpg"
-        description="lti-talented artist and rapper Harry Mack "
-        /> */}
-    
-        <ExCompProperties info={data} />
+        {/* <MyClassComp propName="thisProp  propName" anotherProp="this anotherProp"/> */}    
+        {/* <ExCompProperties info={data} /> */}
+        {/* <ClassLifeCycle info={lifeCycleData} /> */}
+     
       </header>
     </div>
   );
