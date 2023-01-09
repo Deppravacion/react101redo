@@ -35,6 +35,7 @@ class MyClassComp extends React.Component {
     this.setState({ 
       count: 0,
       name: '',
+      stateName: '',
     })
   }
 
@@ -45,11 +46,11 @@ class MyClassComp extends React.Component {
     const { propName, anotherProp } = this.props; // destructure like a pro
     return (
       <div>
-        <div>Hello,{name}</div>
+        <div>Hello, {name} - using State</div>
         <h1>{propName}</h1>
-        <h5>{stateName} using stateName from Props</h5>
-        <h1>{anotherProp}</h1>
-        <div>Count, {count}</div>
+        <h5>{stateName} - - - stateName uses props updates via STATE</h5>
+        <h1>{anotherProp} using anotherProp from Props</h1>
+        <div>Count, {count} - - - this is STATE</div>
 
         <button onClick={this.shuffle}>Click and shuffle Me</button>
         <button onClick={this.increment}>Click and increment Me</button>

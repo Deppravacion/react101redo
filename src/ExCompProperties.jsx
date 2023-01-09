@@ -8,7 +8,12 @@ class ExCompProperties extends React.Component {
   render() {
 
     
-    const {info: { image, cardTitle: title, cardDescription: description, button:{url, label}}} = this.props;
+    const {info: { 
+      image, 
+      cardTitle: title, 
+      cardDescription: description, 
+      button:{url, label}
+    }} = this.props;
 
     return (
       <div>

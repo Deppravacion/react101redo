@@ -29,7 +29,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* <MyClassComp propName="thisProp  propName" anotherProp="this anotherProp"/> */}    
+        <MyClassComp propName="-propName ()=>- " anotherProp="-this anotherProp-"/>    
         {/* <ExCompProperties info={data} /> */}
         {/* <ClassLifeCycle info={lifeCycleData} /> */}
      
